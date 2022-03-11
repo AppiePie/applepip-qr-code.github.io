@@ -50,19 +50,21 @@
         border-radius: 1rem;
       }
       .title {
-        font-weight: 700;
+        font-weight: bold;
         color: hsl(218, 44%, 22%);
-        font-size: 1.3rem;
+        font-size: 1.4rem;
       }
       .description {
         color: hsl(220, 15%, 55%);
       }
-      p {
-        margin: 1rem 0;
+      p,
+      h1 {
+        margin: 1.1rem 0;
+        padding: 0rem 1rem;
       }
       @media only screen and (min-width: 1280px) {
         .wrapper {
-          max-width: 20vw;
+          max-width: 25vw;
         }
       }
 
@@ -78,8 +80,14 @@
   <body>
     <main class="container">
       <div class="wrapper">
-        <img class="img" src="images/image-qr-code.png" />
-        <p class="title">Improve your front-end skills by building projects</p>
+        <img
+          class="img"
+          src="images/image-qr-code.png"
+          alt="QR Code To Access Frontend Mentor"
+        />
+        <h1 class="title">
+          Improve your front-end skills by building projects
+        </h1>
         <p class="description">
           Scan the QR code to visit Frontend Mentor and take your coding skills
           to the next level
